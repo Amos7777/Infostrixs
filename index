@@ -1,0 +1,18 @@
+<html>  
+        <head>
+            <title>Angular JS Hello User</title>                                  
+            <script></script>
+             <script src="app.js"></script>
+
+        </head>
+
+        <body>
+            <div ng-controller="myCtrl">
+                <label for="username">Enter Your Username :</label>
+                <input type="text" id="username" />
+
+                <button ng-click="displayHello()">Submit</button>
+                <p>{{greeting}}</p>
+            </div>
+        </body>
+     </html>
